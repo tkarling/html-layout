@@ -1,47 +1,35 @@
-
-body {
-	width:800px;
-	margin:0px auto;
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
 }
 
-#all {
-	height:650px;
-}
 header {
 	height: 15%;
 	width: 100%;
 	background-color: #454545;
 }
 
-#rest {
+.rest {
 	height: 85%;
-	width:100%;
+	width:1 00%;
 }
-
 
 .sidebar {
 	height:100%;
 	width: 15%;
 	background-color: #D8D8D8;
-}
-
-#leftsidebar {
 	float: left;
 }
 
-#rightsidebar {
-	float: left;
-}
-
-#center {
-	float: left;
+.center {
 	height: 100%;
-	width:70%;
-	margin:auto;
-
+	width: 70%;
+	float: left;
+	margin: auto;
 }
 
-#content {
+.content {
 	height: 90%;
 	width: 100%;
 	background-color: #EFEFEF;
